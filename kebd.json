@@ -1,0 +1,336 @@
+[
+  {
+    "error": "PEGA0001",
+    "description": "Interaction time exceeded threshold",
+    "category": "PEGA Performance",
+    "severity": "High",
+    "fix": "Optimize activity execution and increase timeout thresholds",
+    "self_healable": true,
+    "support_hours_saved": 4
+  },
+  {
+    "error": "PEGA0005",
+    "description": "Database time exceeded threshold",
+    "category": "PEGA Performance",
+    "severity": "High",
+    "fix": "Optimize database queries and increase connection pool",
+    "self_healable": true,
+    "support_hours_saved": 5
+  },
+  {
+    "error": "PEGA0011",
+    "description": "Commit count exceeded threshold",
+    "category": "PEGA Performance",
+    "severity": "Medium",
+    "fix": "Optimize transaction batching and reduce commit frequency",
+    "self_healable": true,
+    "support_hours_saved": 3
+  },
+  {
+    "error": "PEGA0020",
+    "description": "Clipboard size exceeded threshold",
+    "category": "PEGA Performance",
+    "severity": "Medium",
+    "fix": "Clear clipboard cache and optimize data page usage",
+    "self_healable": true,
+    "support_hours_saved": 2
+  },
+  {
+    "error": "PEGA0035",
+    "description": "Clipboard property exceeded WARN level",
+    "category": "PEGA Performance",
+    "severity": "Medium",
+    "fix": "Clear clipboard properties and optimize data structure",
+    "self_healable": true,
+    "support_hours_saved": 2
+  },
+  {
+    "error": "AUTH-403",
+    "description": "Missing privilege (authorization failure)",
+    "category": "PEGA Security",
+    "severity": "Medium",
+    "fix": "Review user permissions and update access control rules",
+    "self_healable": true,
+    "support_hours_saved": 2
+  },
+  {
+    "error": "CONN-1001",
+    "description": "HTTP connector timeout",
+    "category": "PEGA Integration",
+    "severity": "High",
+    "fix": "Increase timeout settings and check external service health",
+    "self_healable": true,
+    "support_hours_saved": 4
+  },
+  {
+    "error": "DB-DEADLOCK",
+    "description": "Database deadlock detected",
+    "category": "PEGA Database",
+    "severity": "High",
+    "fix": "Retry transaction and optimize database locking strategy",
+    "self_healable": true,
+    "support_hours_saved": 3
+  },
+  {
+    "error": "QP-RETRYMAX",
+    "description": "Queue Processor max retries reached",
+    "category": "PEGA Workflow",
+    "severity": "High",
+    "fix": "Reset queue processor and investigate processing failures",
+    "self_healable": true,
+    "support_hours_saved": 5
+  },
+  {
+    "error": "SECU0001",
+    "description": "XSS payload blocked",
+    "category": "PEGA Security",
+    "severity": "High",
+    "fix": "Block malicious IP and update security policies",
+    "self_healable": true,
+    "support_hours_saved": 2
+  },
+
+  {
+    "error": "DB query took more than threshold",
+    "description": "Database Performance Issue",
+    "category": "Database",
+    "severity": "Medium",
+    "fix": "Optimize database queries and check index usage",
+    "self_healable": false,
+    "support_hours_saved": 0
+  },
+  {
+    "error": "Authentication failed",
+    "description": "User Authentication Error",
+    "category": "Security",
+    "severity": "Medium",
+    "fix": "Check user credentials and LDAP connectivity",
+    "self_healable": true,
+    "support_hours_saved": 1
+  },
+  {
+    "error": "Memory usage at",
+    "description": "High Memory Usage",
+    "category": "Performance",
+    "severity": "Medium",
+    "fix": "Increase memory allocation and restart service",
+    "self_healable": true,
+    "support_hours_saved": 2
+  },
+  {
+    "error": "Integration failure",
+    "description": "External System Integration Error",
+    "category": "Integration",
+    "severity": "High",
+    "fix": "Check network connectivity and restart integration service",
+    "self_healable": true,
+    "support_hours_saved": 3
+  },
+  {
+    "error": "Workflow engine halted unexpectedly",
+    "description": "Workflow Engine Failure",
+    "category": "Workflow",
+    "severity": "High",
+    "fix": "Restart workflow engine and verify process definitions",
+    "self_healable": true,
+    "support_hours_saved": 4
+  },
+  {
+    "error": "Query performance issue",
+    "description": "Database Query Performance",
+    "category": "Database",
+    "severity": "Medium",
+    "fix": "Analyze and optimize slow queries",
+    "self_healable": false,
+    "support_hours_saved": 0
+  },
+  {
+    "error": "Critical system failure",
+    "description": "System Critical Error",
+    "category": "System",
+    "severity": "High",
+    "fix": "Emergency system restart and health check",
+    "self_healable": false,
+    "support_hours_saved": 8
+  },
+  {
+    "error": "Network unreachable",
+    "description": "Network Connectivity Issue",
+    "category": "Network",
+    "severity": "High",
+    "fix": "Check network infrastructure and connectivity",
+    "self_healable": false,
+    "support_hours_saved": 6
+  },
+  {
+    "error": "Account locked",
+    "description": "User Account Security",
+    "category": "Security",
+    "severity": "Low",
+    "fix": "Unlock user account and verify security policies",
+    "self_healable": true,
+    "support_hours_saved": 1
+  },
+  {
+    "error": "CPU utilization exceeded 90% threshold",
+    "description": "High CPU Usage",
+    "category": "Performance",
+    "severity": "High",
+    "fix": "Automatically restarting high-CPU processes and scaling resources",
+    "self_healable": true,
+    "support_hours_saved": 4
+  },
+  {
+    "error": "Memory leak detected",
+    "description": "Memory Leak Issue",
+    "category": "Performance",
+    "severity": "High",
+    "fix": "Automatically restarting affected process and garbage collection",
+    "self_healable": true,
+    "support_hours_saved": 5
+  },
+  {
+    "error": "Response time degradation",
+    "description": "API Performance Issue",
+    "category": "Performance",
+    "severity": "Medium",
+    "fix": "Automatically enabling caching and load balancing",
+    "self_healable": true,
+    "support_hours_saved": 3
+  },
+  {
+    "error": "Database query performance",
+    "description": "Slow Database Query",
+    "category": "Database",
+    "severity": "High", 
+    "fix": "Requires manual query optimization and index analysis",
+    "self_healable": false,
+    "support_hours_saved": 0
+  },
+  {
+    "error": "Thread pool exhaustion",
+    "description": "Thread Pool Resource Issue",
+    "category": "Performance",
+    "severity": "Critical",
+    "fix": "Requires application restart and configuration review",
+    "self_healable": false,
+    "support_hours_saved": 0
+  },
+  {
+    "error": "Cache hit ratio dropped",
+    "description": "Cache Performance Issue", 
+    "category": "Performance",
+    "severity": "Medium",
+    "fix": "Requires cache configuration analysis and tuning",
+    "self_healable": false,
+    "support_hours_saved": 0
+  },
+  {
+    "error": "JVM heap usage",
+    "description": "JVM Memory Issue",
+    "category": "Performance", 
+    "severity": "High",
+    "fix": "Requires heap dump analysis and memory tuning",
+    "self_healable": false,
+    "support_hours_saved": 0
+  },
+  {
+    "error": "Authentication failure",
+    "description": "Security Authentication Error",
+    "category": "Security",
+    "severity": "Medium",
+    "fix": "Investigate authentication logs and security policies",
+    "self_healable": false,
+    "support_hours_saved": 0
+  },
+  {
+    "error": "SQL injection attempt",
+    "description": "Security Threat Detected",
+    "category": "Security",
+    "severity": "Critical",
+    "fix": "Immediate security review and firewall update",
+    "self_healable": false,
+    "support_hours_saved": 0
+  },
+  {
+    "error": "slow query execution",
+    "description": "Database Performance Issue",
+    "category": "Database",
+    "severity": "High",
+    "fix": "Automatically optimizing query execution plan and adding indexes",
+    "self_healable": true,
+    "support_hours_saved": 4
+  },
+  {
+    "error": "thread pool exhaustion",
+    "description": "Thread Pool Resource Issue",
+    "category": "Performance",
+    "severity": "Critical",
+    "fix": "Automatically increasing thread pool size and restarting service",
+    "self_healable": true,
+    "support_hours_saved": 6
+  },
+  {
+    "error": "cache hit ratio dropped",
+    "description": "Cache Performance Issue",
+    "category": "Performance",
+    "severity": "Medium",
+    "fix": "Automatically clearing cache and optimizing cache configuration",
+    "self_healable": true,
+    "support_hours_saved": 3
+  },
+  {
+    "error": "access denial",
+    "description": "Access Control Issue",
+    "category": "Security",
+    "severity": "Medium",
+    "fix": "Automatically reviewing user permissions and updating access policies",
+    "self_healable": true,
+    "support_hours_saved": 2
+  },
+  {
+    "error": "password policy violation",
+    "description": "Security Policy Issue",
+    "category": "Security",
+    "severity": "Medium",
+    "fix": "Automatically enforcing password policy and notifying user",
+    "self_healable": true,
+    "support_hours_saved": 2
+  },
+  {
+    "error": "jvm heap usage",
+    "description": "JVM Memory Issue",
+    "category": "Performance",
+    "severity": "High",
+    "fix": "Automatically increasing heap size and triggering garbage collection",
+    "self_healable": true,
+    "support_hours_saved": 4
+  },
+  {
+    "error": "database connection timeout",
+    "description": "Database Connectivity Issue",
+    "category": "Database",
+    "severity": "High",
+    "fix": "Automatically restarting database connections and optimizing pool settings",
+    "self_healable": true,
+    "support_hours_saved": 3
+  },
+  {
+    "error": "file system full",
+    "description": "Storage Issue",
+    "category": "Storage",
+    "severity": "Critical",
+    "fix": "Automatically cleaning temporary files and expanding storage",
+    "self_healable": true,
+    "support_hours_saved": 5
+  },
+  {
+    "error": "network latency high",
+    "description": "Network Performance Issue",
+    "category": "Network",
+    "severity": "Medium",
+    "fix": "Automatically switching to backup network paths and optimizing routing",
+    "self_healable": true,
+    "support_hours_saved": 3
+  }
+]

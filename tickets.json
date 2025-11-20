@@ -1,0 +1,132 @@
+[
+  {
+    "ticket_id": "TKT-20250904-082",
+    "timestamp": "2025-09-04T07:29:24.578208",
+    "log_line": "2025-09-04 07:26:01,826 GMT*8*PEGA0005*73526*10000*TJZ8EAS03ILQ6721OCMRPZX09NT1ZONB*NA*NA*A5BCMIX1SA0INZ1G3S1JLNATND1E3TP7*System*TCSDPM-Covenant-Work*CovenantMo:01.01*J0BPKYGTGCKTM2NSS1YHXRO5MXC90QOV*N*1*TJZ8EAS03ILQ6721OCMRPZX09NT1ZONB*4965*PegaRULES-Batch-6*STANDARD*com.pega.pegarules.data.internal.clipboard.ClipboardPropertyImpl*NA*System-Queue-ServiceLevel.ProcessEvent*Rule-Obj-Activity:EstablishContext*ASSIGN- EXECUTESLA #20190219T070031.859 GMT Step: 23 Circum: 0*NA*false*NA***pxRDBIOElapsed=0.04;pxListWithUnfilteredStreamCount=1;pxRDBIOCount=1;pxTotalReqCPU=0.19;pxRunModelCount=15;pxRunWhenCount=16;pxDeclarativePageLoadElapsed=0.01;pxRulesExecuted=530;pxListRowWithUnfilteredStreamCount=1;pxOtherCount=18;pxDBInputBytes=2,172,252;pxTotalReqTime=0.30;pxActivityCount=306;pxAlertCount=3;pxOtherFromCacheCount=26;pxFlowCount=1;pxRunOtherRuleCount=20;pxOtherBrowseElapsed=0.00;pxDeclarativeRulesInvokedCount=2;pxInteractions=1;pxLegacyRuleAPIUsedCount=4;pxRuleCount=10;pxRulesUsed=1010;pxDeclarativePageLoadCount=2;pxRuleFromCacheCount=10;pxOtherIOElapsed=0.01;pxTrackedPropertyChangesCount=51;pxOtherIOCount=8;*TCSDPM-Covenant-Work-Covenant*pyWorkPage*TCSDPM-Covenant-Work-Covenant*pyWorkPage*Preconditions;RULE-OBJ-ACTIVITY ASSIGN- EXECUTESLA #20190219T070031.859 GMT Step: 23 Circum: 0;doActivity Rule-Obj-Activity:AddToCover;Call AddToCover;RULE-OBJ-ACTIVITY WORK- ADDCOVEREDWORK #20240910T131725.450 GMT Step: 18 Circum: 0;24 additional frames in stack;*workPage=[removed];pyTempPlaceHolder=TempPlaceHolder;*The number of elements in this clipboard list property has exceeded WARN level.  Maximum size: 10000 Property reference: pyTempPlaceHolder*",
+    "anomaly": "Clipboard property 'pyTempPlaceHolder' has exceeded its maximum size of 10000 elements.",
+    "severity": "High",
+    "category": "application",
+    "description": "No description available",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "TKT-20250904-275",
+    "timestamp": "2025-09-04T07:42:52.671148",
+    "log_line": "2025-09-04 07:36:24,274 GMT*8*PEGA0053*28269*10000*92INLO0TU1YK8NPM5KB007ZZOZOJSN20*NA*NA*XDFJTG7DTL8I53NIMR4MJEPG4TJE4JUL*System*TCSDPM-Covenant-Work*CovenantMo:01.01*8GYNMJ8YCLEXGU8M9OU7TOZ4BYOCILQK*N*1*92INLO0TU1YK8NPM5KB007ZZOZOJSN20*4883*PegaRULES-Batch-1*STANDARD*com.pega.pegarules.data.internal.clipboard.ClipboardPropertyImpl*NA*System-Queue-ServiceLevel.ProcessEvent*Rule-Obj-Activity:EstablishContext*WORK-COVER- ADDTOCOVER #20180713T133047.805 GMT Step: 1 Circum: 0*NA*false*NA***pxRDBIOElapsed=0.03;pxListWithUnfilteredStreamCount=1;pxRDBIOCount=1;pxTotalReqCPU=0.07;pxRunModelCount=15;pxRunWhenCount=16;pxDeclarativePageLoadElapsed=0.01;pxRulesExecuted=523;pxListRowWithUnfilteredStreamCount=1;pxOtherCount=18;pxDBInputBytes=2,249,299;pxTotalReqTime=0.30;pxActivityCount=111;pxAlertCount=4;pxOtherFromCacheCount=26;pxFlowCount=1;pxRunOtherRuleCount=20;pxOtherBrowseElapsed=0.00;pxDeclarativeRulesInvokedCount=2;pxInteractions=1;pxLegacyRuleAPIUsedCount=4;pxRuleCount=10;pxRulesUsed=766;pxDeclarativePageLoadCount=2;pxRuleFromCacheCount=10;pxOtherIOElapsed=0.01;pxTrackedPropertyChangesCount=51;pxOtherIOCount=8;*TCSDPM-Covenant-Work-Covenant*pyWorkPage*TCSDPM-Covenant-Work-Covenant*pyWorkPage*Preconditions;RULE-OBJ-ACTIVITY WORK-COVER- ADDTOCOVER #20180713T133047.805 GMT Step: 1 Circum: 0;doActivity Rule-Obj-Activity:AddToCover;Call AddToCover;RULE-OBJ-ACTIVITY WORK- ADDCOVEREDWORK #20240910T131725.450 GMT Step: 18 Circum: 0;24 additional frames in stack;*workPage=[removed];pyTempPlaceHolder=TempPlaceHolder;*The number of elements in this clipboard list property has exceeded WARN level.  Maximum size: 10000 Property reference: .pxCoveredInsKeys*",
+    "anomaly": "The number of elements in a clipboard list property has exceeded the warning level (10000).",
+    "severity": "Medium",
+    "category": "application",
+    "description": "This issue may impact the performance and efficiency of the application, especially when handling large data sets. It is recommended to optimize or limit the size of the clipboard list property to prevent such occurrences.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "TKT-20250904-843",
+    "timestamp": "2025-09-04T07:54:00.787491",
+    "log_line": "2025-09-04 07:50:21,714 GMT*8*PEGA0073*43484*10000*88P958AWHQU0RUE8EBESQ3L7WT41KBDF*NA*NA*OO6TMY7AKO965VX3RRU9S1ZMCVFMYBR4*System*TCSDPM-Covenant-Work*CovenantMo:01.01*HM7LKW9LMINDM82D7WAAZW1CP0FLPE39*N*1*88P958AWHQU0RUE8EBESQ3L7WT41KBDF*4996*PegaRULES-Batch-6*STANDARD*com.pega.pegarules.data.internal.clipboard.ClipboardPropertyImpl*NA*System-Queue-ServiceLevel.ProcessEvent*Rule-Obj-Activity:EstablishContext*ASSIGN- EXECUTESLA #20190219T070031.859 GMT Step: 23 Circum: 0*NA*false*NA***pxRDBIOElapsed=0.03;pxListWithUnfilteredStreamCount=1;pxRDBIOCount=1;pxTotalReqCPU=0.48;pxRunModelCount=15;pxRunWhenCount=16;pxDeclarativePageLoadElapsed=0.01;pxRulesExecuted=782;pxListRowWithUnfilteredStreamCount=1;pxOtherCount=18;pxDBInputBytes=2,450,927;pxTotalReqTime=0.21;pxActivityCount=380;pxAlertCount=4;pxOtherFromCacheCount=26;pxFlowCount=1;pxRunOtherRuleCount=20;pxOtherBrowseElapsed=0.00;pxDeclarativeRulesInvokedCount=2;pxInteractions=1;pxLegacyRuleAPIUsedCount=4;pxRuleCount=10;pxRulesUsed=1337;pxDeclarativePageLoadCount=2;pxRuleFromCacheCount=10;pxOtherIOElapsed=0.01;pxTrackedPropertyChangesCount=51;pxOtherIOCount=8;*TCSDPM-Covenant-Work-Covenant*pyWorkPage*TCSDPM-Covenant-Work-Covenant*pyWorkPage*Preconditions;RULE-OBJ-ACTIVITY ASSIGN- EXECUTESLA #20190219T070031.859 GMT Step: 23 Circum: 0;doActivity Rule-Obj-Activity:AddToCover;Call AddToCover;RULE-OBJ-ACTIVITY WORK- ADDCOVEREDWORK #20240910T131725.450 GMT Step: 18 Circum: 0;24 additional frames in stack;*workPage=[removed];pyTempPlaceHolder=TempPlaceHolder;*The number of elements in this clipboard list property has exceeded WARN level.  Maximum size: 10000 Property reference: .pxCoveredInsKeys*",
+    "anomaly": "The size of the list property '.pxCoveredInsKeys' has exceeded the warning level (10000). This may impact performance.",
+    "severity": "Medium",
+    "category": "application",
+    "description": "No description available",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "TKT-20250904-374",
+    "timestamp": "2025-09-04T08:15:42.413210",
+    "log_line": "2025-09-04 08:14:45,455 GMT [PegaRULES-Batch-14] [  STANDARD] [                    ] [                    ] (nnectionFailedExceptionHandler) ERROR  65F4ZF9CUA0ZG3HV5P0SFC602179AXLD System - Rule not found: {rule_name} in {rule_type}",
+    "anomaly": "Rule not found in specified type",
+    "severity": "Critical",
+    "category": "application",
+    "description": "The specified rule '{rule_name}' could not be found within the defined rule type '{rule_type}'. This indicates a possible misconfiguration or inconsistency.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "TKT-20250904-407",
+    "timestamp": "2025-09-04T08:17:44.624648",
+    "log_line": "2025-09-04 08:16:45,338 GMT [PegaRULES-MasterAgent] [  STANDARD] [                    ] [                    ] (nnectionFailedExceptionHandler) ERROR  XABQCSKW639KFEN5MCKDG3Y5VHBHEOT0 System - Email listener I/O error: {error_message}",
+    "anomaly": "Email listener I/O error occurred in Pega application",
+    "severity": "Critical",
+    "category": "application",
+    "description": "An unspecified Input/Output (I/O) error has been detected within the Email listener module of the Pega application. The specific error details are provided as '{error_message}' in the log entry.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "TKT-20250904-005",
+    "timestamp": "2025-09-04T08:19:45.957596",
+    "log_line": "2025-09-04 08:18:47,253 GMT [PegaRULES-Batch-14] [  STANDARD] [                    ] [                    ] (nnectionFailedExceptionHandler) ERROR  DLB62IBGQDKU3J6RHYNQUMIC4X7MGXO5 System - Unauthorized (HTTP 401) in REST connector: {endpoint}",
+    "anomaly": "Unauthorized (HTTP 401) error occurred in REST connector",
+    "severity": "Critical",
+    "category": "security",
+    "description": "The system encountered an unauthorized access issue while attempting to connect via the REST connector. The specific endpoint is not specified in this log.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "TKT-20250904-979",
+    "timestamp": "2025-09-04T08:27:46.202410",
+    "log_line": "2025-09-04 08:26:50,140 GMT [PegaRULES-SecurityAgent] [  STANDARD] [                    ] [                    ] (AuthorizationFilter) ERROR  QEB74SJBOPW3B7A2IYRNSYTQU68V1T3I System - Authorization denied for restricted rule: ExecuteFlow",
+    "anomaly": "Authorization error for restricted rule: ExecuteFlow",
+    "severity": "Critical",
+    "category": "security",
+    "description": "The log indicates that a user has been denied access to execute the 'ExecuteFlow' rule. This could potentially impact the system's operations if this rule is crucial for normal functioning.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "TKT-20250904-531",
+    "timestamp": "2025-09-04T08:28:45.946814",
+    "log_line": "2025-09-04 08:27:49,218 GMT [PegaRULES-SecurityAgent] [  STANDARD] [                    ] [                    ] (SecurityFilter) WARN  2HB41XPHYWCX73URQ20YHZF4E6D9IR3Q System - SECU0003 - SQL injection attempt blocked: {query} from {source}",
+    "anomaly": "SQL Injection Attempt",
+    "severity": "Critical",
+    "category": "security",
+    "description": "An unauthorized attempt to inject malicious SQL code was blocked by the Pega application from source {source}. The specific query used in this attempt is indicated as {query}.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "TKT-20250904-345",
+    "timestamp": "2025-09-04T08:29:43.106681",
+    "log_line": "2025-09-04 08:28:48,959 GMT [PegaRULES-SecurityAgent] [  STANDARD] [                    ] [                    ] (SecurityFilter) WARN  YT3A7OB1PQNYI6L5GAQ1T1MILLXYZP71 System - SECU0007 - Session hijacking attempt detected: {session_id}",
+    "anomaly": "Session hijacking attempt detected",
+    "severity": "Critical",
+    "category": "security",
+    "description": "A potential security breach occurred where someone might have attempted to unauthorizedly take over an active session using the provided session_id.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "TKT-20250904-800",
+    "timestamp": "2025-09-04T08:30:38.525874",
+    "log_line": "2025-09-04 08:29:46,116 GMT [PegaRULES-SecurityAgent] [  STANDARD] [                    ] [                    ] (SecurityFilter) WARN  DR125NOMZDY14Y7WAQKDEWVAJ6OGKJT6 System - SECU0015 - Privilege escalation attempt: {username} tried {action}",
+    "anomaly": "Privilege escalation attempt detected",
+    "severity": "Critical",
+    "category": "security",
+    "description": "The user {username} attempted an action that could potentially lead to privilege escalation.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "TKT-20250904-703",
+    "timestamp": "2025-09-04T08:32:42.357689",
+    "log_line": "2025-09-04 08:31:40,569 GMT [PegaRULES-Batch-3] [  STANDARD] [                    ] [                    ] (nnectionFailedExceptionHandler) ERROR  SU48W2HDNE9X2Y57W28FLBCT72PKJ0PL System - External service timeout: {service_name} after {timeout}ms",
+    "anomaly": "External service timeout due to exceeding specified duration",
+    "severity": "Critical",
+    "category": "performance",
+    "description": "The log indicates that an external service with an unspecified name has timed out after an undefined time (referred to as {timeout}ms). This could be due to network latency, server overload, or issues with the external service itself.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "TKT-20250904-584",
+    "timestamp": "2025-09-04T08:39:35.913177",
+    "log_line": "2025-09-04 08:38:43,602 GMT [PegaRULES-Batch-14] [  STANDARD] [                    ] [                    ] (nnectionFailedExceptionHandler) ERROR  5RJLAHZ7473A3IFDZ9EHSBMABTGXRLNJ System - Cache synchronization error: {cache_name} update failed",
+    "anomaly": "Cache synchronization error occurred",
+    "severity": "Critical",
+    "category": "application",
+    "description": "The specified cache update operation has failed. This could lead to inconsistencies in the application's data.",
+    "status": "Open"
+  },
+  {
+    "ticket_id": "TKT-20250904-220",
+    "timestamp": "2025-09-04T09:30:53.054800",
+    "log_line": "2025-09-04 09:27:47,203 GMT*8*PEGA0035*26596*10000*F94A07M0CPDI36IL245LNH44VRJL29J1*NA*NA*XTPCT2H7R0MNGKHINKRWZB73DY6EN35P*System*TCSDPM-Covenant-Work*CovenantMo:01.01*AZAW7ACMRBTP834KIWU2EZHFFU3YCZSP*N*1*F94A07M0CPDI36IL245LNH44VRJL29J1*4996*PegaRULES-Batch-8*STANDARD*com.pega.pegarules.data.internal.clipboard.ClipboardPropertyImpl*NA*System-Queue-ServiceLevel.ProcessEvent*Rule-Obj-Activity:EstablishContext*ASSIGN- EXECUTESLA #20190219T070031.859 GMT Step: 23 Circum: 0*NA*false*NA***pxRDBIOElapsed=0.04;pxListWithUnfilteredStreamCount=1;pxRDBIOCount=1;pxTotalReqCPU=0.08;pxRunModelCount=15;pxRunWhenCount=16;pxDeclarativePageLoadElapsed=0.01;pxRulesExecuted=582;pxListRowWithUnfilteredStreamCount=1;pxOtherCount=18;pxDBInputBytes=2,314,696;pxTotalReqTime=0.35;pxActivityCount=360;pxAlertCount=1;pxOtherFromCacheCount=26;pxFlowCount=1;pxRunOtherRuleCount=20;pxOtherBrowseElapsed=0.00;pxDeclarativeRulesInvokedCount=2;pxInteractions=1;pxLegacyRuleAPIUsedCount=4;pxRuleCount=10;pxRulesUsed=559;pxDeclarativePageLoadCount=2;pxRuleFromCacheCount=10;pxOtherIOElapsed=0.01;pxTrackedPropertyChangesCount=51;pxOtherIOCount=8;*TCSDPM-Covenant-Work-Covenant*pyWorkPage*TCSDPM-Covenant-Work-Covenant*pyWorkPage*Preconditions;RULE-OBJ-ACTIVITY ASSIGN- EXECUTESLA #20190219T070031.859 GMT Step: 23 Circum: 0;doActivity Rule-Obj-Activity:AddToCover;Call AddToCover;RULE-OBJ-ACTIVITY WORK- ADDCOVEREDWORK #20240910T131725.450 GMT Step: 18 Circum: 0;24 additional frames in stack;*workPage=[removed];pyTempPlaceHolder=TempPlaceHolder;*The number of elements in this clipboard list property has exceeded WARN level.  Maximum size: 10000 Property reference: .pxCoveredInsKeys*",
+    "anomaly": "The clipboard list property size exceeded the warning level (10000). This might impact application performance.",
+    "severity": "Medium",
+    "category": "application",
+    "description": "No description available",
+    "status": "Open"
+  }
+]
