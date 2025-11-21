@@ -240,4 +240,3 @@ For support or questions:
 
 ---
 
-**Built with ❤️ for Ministry of Justice - Saudi Arabia**
